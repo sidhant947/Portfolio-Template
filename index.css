@@ -1,0 +1,134 @@
+*{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Style Script';
+    text-align: center;
+
+}
+
+body{
+background-color: black; 
+}
+img{
+    border-radius: 30px;
+}
+
+
+/*1st section*/
+div.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#img2{
+    border-radius: 40px;
+    border: 1px solid pink;
+
+}
+#img2:hover{
+    box-shadow: 0 0 1.5rem pink;
+}
+
+@keyframes a1 {
+    0%{color: rgb(255, 255, 255);}
+    50%{color: cyan;}
+    100%{ color: rgb(255, 255, 255)}
+    
+}
+
+section#s1{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h2{ 
+    font-family: 'Style Script';
+    animation: a1 0.4s ease-in-out infinite;
+}
+
+ul{
+    display: inline-block;
+    list-style: none;
+    padding: 1px;
+}
+
+li#l1{
+    display: inline;
+    padding: 4px;
+    margin: 10px;
+}
+i{
+    font-size: 3rem;   
+}
+i:hover{
+    color: rgb(0, 217, 255);
+}
+
+/*2rd section*/
+div.extra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#qual{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div#q1{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.418);  
+}
+
+div#q1:hover{
+    box-shadow: 0 0 1.5rem rgb(255, 255, 255);
+}
+
+h3{
+    font-family: 'Style Script';
+}
+
+section#s2{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+ol{
+    list-style: none;
+    text-align: center;
+    padding: 1px;
+}
+
+
+/*3rd section*/
+
+div.gallery{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1{
+    border-radius: 40px;
+    padding: 30px;
+    margin: 10px;
+}
+
+section#s3{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
